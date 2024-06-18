@@ -1,0 +1,56 @@
+/* Configurações iniciais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_primary {
+    display: inline-block;
+    height: 100%;
+    width: 50%;   
+}
+
+.container_primary .photo {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    padding: 4.5em;
+    margin: 3.5rem 10rem;
+}
+
+.container_primary img {
+    height: 85px;
+    width: 85px;
+}
+
+.container_primary h1 {
+    text-align: center;
+}
+
+.container_primary p {
+    padding: 2.5rem;
+}
+
+.container_primary ul li {
+    list-style: none;
+    text-align: center;
+    padding-bottom: .9em;
+}
+
+.container_primary a {
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+.container_secund {
+    display: inline-block;
+    height: 100%;
+}
