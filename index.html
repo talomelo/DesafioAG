@@ -1,39 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio - Aceleradora Ágil</title>
-    <link rel="stylesheet" href="./Assets/style/style.css">
+    <title>Lista de tarefas </title>
+    <link rel="stylesheet" href="Assets/style/stye.css">
 </head>
 <body>
-    <div class="container_primary">
-        <div class="photo">
-            <img src="./Assets/img/icon.jpg" alt="photo">
+    <section>
+        <div class="container">
+            <div class="sidebar">
+                <!-- Foto -->
+                <img src="icon.png" alt="photo" class="icon">
+                <h2>Nome Genérico</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Eveniet rem tenetur soluta repudiandae iste similique repellendus ex a
+                    ssumenda dignissimos. Adipisci voluptatibus dolore fugit officiis assumenda quasi, 
+                    obcaecati quaerat facere totam?</p>
+                    <!-- menu -->
+                <nav>
+                    <ul>
+                        <li><a href="#">Link1</a></li>
+                        <li><a href="#">Link2</a></li>
+                        <li><a href="#">Link3</a></li>
+                        <li><a href="#">Link4</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </section>
+        <div class="main-content">
+            <h1>Lista de tarefas</h1>
+            <div class="task-tables">
+                <div class="task-table">
+                    <!-- Lista de tarefa - dia -->
+                    <h2>Dia</h2>
+                    <input type="text" id="day-task-input" placeholder="Adicionar tarefa do dia">
+                    <button id="add-day-task">Adicionar</button>
+                    <ol>
+                        <li>Tarefa 1</li>
+                        <li>Tarefa 2</li>
+                        <li>Tarefa 3</li>
+                    </ol>
+                </div>
+                <!-- Lista de tarefa - noite -->
+                <div class="task-table">
+                    <h2>Noite</h2>
+                    <input type="text" id="night-task-input" placeholder="Adicionar tarefa da noite">
+                    <button id="add-night-task">Adicionar</button>
+                    <ol>
+                        <li>Tarefa 1</li>
+                        <li>Tarefa 2</li>
+                        <li>Tarefa 3</li>
+                    </ol>
+                </div>
+            </div>
         </div>
-        <h1>Nome Generico</h1>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-             Obcaecati, harum ipsum. Quasi odio alias quibusdam veritatis nesciunt. 
-             Commodi quod et voluptatem dicta at cupiditate nobis alias ad velit sequi. Nisi.
-        </p>
-        <ul>
-            <li>
-                <a href="">Link 1</a>
-            </li>
-            <li>
-                <a href="">Link 2</a>
-            </li>
-            <li>
-                <a href="">Link 3</a>
-            </li>
-            <li>
-                <a href="">Link 4</a>
-            </li>
-        </ul>
     </div>
-    <div class="container_secund">
-        Algo aqui
-    </div>
+    <!-- Script -->
+    <script src="./Assets/Script/script.js"></script>
 </body>
 </html>
